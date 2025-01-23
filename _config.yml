@@ -1,5 +1,38 @@
+# Website Title and Logo
 title: Nourhene Guellouz
 logo: /assets/img/headshot_circle.png
-#description: text below image
-show_downloads: false
+
+# Optional Tagline/Description
+description: "Web Developer | Machine Learning Enthusiast | Cloud & Deployment Specialist"
+
+# Jekyll Theme
 theme: jekyll-theme-minimal
+
+# Site Settings
+show_downloads: false
+permalink: /:title/
+paginate: 5
+
+# SEO Optimization
+author: Nourhene Guellouz
+keywords: "portfolio, web development, machine learning, data science, cloud, deployment, Nourhene Guellouz"
+url: "https://nourhene-guellouz.github.io"
+
+# Social Links
+social_links:
+  - name: GitHub
+    url: https://github.com/nourhene-guellouz
+  - name: LinkedIn
+    url: https://linkedin.com/in/nourhene-guellouz
+  - name: Email
+    url: mailto:nourheneguellouz@example.com
+
+# Navigation Menu
+header_pages:
+  - index.html
+  - projects.html
+  - contact.html
+
+# Additional Settings
+markdown: kramdown
+highlighter: rouge
