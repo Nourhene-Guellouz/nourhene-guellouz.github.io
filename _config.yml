@@ -1,38 +1,133 @@
-# Website Title and Logo
-title: Nourhene Guellouz
-logo: /assets/img/headshot_circle.png
-
-# Optional Tagline/Description
-description: "Web Developer | Machine Learning Enthusiast | Cloud & Deployment Specialist"
-
-# Jekyll Theme
-theme: jekyll-theme-minimal
-
-# Site Settings
-show_downloads: false
-permalink: /:title/
-paginate: 5
-
-# SEO Optimization
-author: Nourhene Guellouz
-keywords: "portfolio, web development, machine learning, data science, cloud, deployment, Nourhene Guellouz"
-url: "https://nourhene-guellouz.github.io"
-
-# Social Links
-social_links:
-  - name: GitHub
-    url: https://github.com/nourhene-guellouz
-  - name: LinkedIn
-    url: https://linkedin.com/in/nourhene-guellouz
-  - name: Email
-    url: mailto:nourheneguellouz@gmail.com
-
-# Navigation Menu
-header_pages:
-  - index.html
-  - projects.html
-  - contact.html
-
-# Additional Settings
-markdown: kramdown
-highlighter: rouge
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nourhene Guellouz Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: #333;
+      text-align: center;
+    }
+    header {
+      background: linear-gradient(to right, #4CAF50, #3b8b3b);
+      color: white;
+      padding: 1rem;
+    }
+    header img {
+      width: 150px;
+      border-radius: 50%;
+      margin-top: 10px;
+    }
+    section {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    h1, h2 {
+      color: #4CAF50;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    li {
+      margin: 5px 0;
+    }
+    a {
+      color: #4CAF50;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      text-align: center;
+      padding: 10px;
+      background-color: #333;
+      color: white;
+      margin-top: 20px;
+    }
+    form {
+      margin-top: 20px;
+    }
+    input, textarea, button {
+      width: 80%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    button {
+      background-color: #4CAF50;
+      color: white;
+      cursor: pointer;
+      border: none;
+    }
+    button:hover {
+      background-color: #3b8b3b;
+    }
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+    h1 {
+      animation: fadeIn 2s ease-in-out;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="assets/img/headshot_circle.png" alt="Nourhene Guellouz">
+    <h1>Nourhene Guellouz</h1>
+    <p>Web Developer | Machine Learning Enthusiast | Cloud & Deployment Specialist</p>
+  </header>
+  <main>
+    <section>
+      <h2>About Me</h2>
+      <p>Hello! I’m Nourhene Guellouz, passionate about web development, machine learning, and automation. Welcome to my portfolio!</p>
+    </section>
+    <section>
+      <h2>Skills</h2>
+      <ul>
+        <li>Python, SQL, JavaScript</li>
+        <li>Cloud: AWS, Docker</li>
+        <li>Frameworks: TensorFlow, Scikit-Learn, React</li>
+      </ul>
+    </section>
+    <section>
+      <h2>Projects</h2>
+      <ul>
+        <li><a href="https://github.com/nourhene-guellouz/project1" target="_blank">Dynamic Frontend Testing</a></li>
+        <li><a href="https://github.com/nourhene-guellouz/project2" target="_blank">Data Science Internship</a></li>
+      </ul>
+    </section>
+    <section>
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:nourheneguellouz@gmail.com">nourheneguellouz@gmail.com</a></p>
+      <p>LinkedIn: <a href="https://linkedin.com/in/nourhene-guellouz" target="_blank">Nourhene Guellouz</a></p>
+      <form action="https://formspree.io/f/your-id" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" rows="5"></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 Nourhene Guellouz</p>
+  </footer>
+</body>
+</html>
