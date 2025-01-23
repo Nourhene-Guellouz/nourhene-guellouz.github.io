@@ -1,6 +1,6 @@
 # Nourhene Guellouz - Portfolio
 
-Welcome to the repository for my portfolio website. This site showcases my projects, skills, and experience in web development, machine learning, and data science.
+Welcome to the repository for my portfolio website. This site showcases my projects, skills, and experience in web development, machine learning, data science, cloud technologies, and deployment strategies.
 
 **Live Portfolio:** [https://nourhene-guellouz.github.io](https://nourhene-guellouz.github.io)
 
