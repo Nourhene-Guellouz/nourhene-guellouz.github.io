@@ -98,6 +98,25 @@
     .project-card a:hover {
       background-color: #2c3e50;
     }
+    pre {
+      background: #f4f4f4;
+      padding: 10px;
+      border-radius: 5px;
+      overflow-x: auto;
+      font-size: 0.9rem;
+      color: #333;
+    }
+    code {
+      font-family: 'Courier New', Courier, monospace;
+      color: #2c3e50;
+    }
+    .project-card img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 5px;
+      margin-top: 15px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
     footer {
       text-align: center;
       padding: 20px;
@@ -201,11 +220,34 @@
         <div class="project-card">
           <h3>Predictive Maintenance Model</h3>
           <p>A machine learning project predicting equipment failures to optimize maintenance.</p>
+          <pre><code>// Python sample code for Predictive Maintenance
+import pandas as pd
+from sklearn.ensemble import RandomForestClassifier
+
+data = pd.read_csv('data.csv')
+model = RandomForestClassifier()
+model.fit(data[['feature1', 'feature2']], data['target'])
+          </code></pre>
+          <p>Below is a chart generated during model evaluation:</p>
+          <img src="assets/img/maintenance_chart.png" alt="Predictive Maintenance Chart">
           <a href="https://github.com/nourhene-guellouz/project1" target="_blank">View Project</a>
         </div>
         <div class="project-card">
           <h3>Automated Testing Framework</h3>
           <p>A framework for automated testing with advanced data analysis and visualization.</p>
+          <pre><code>// Node.js Puppeteer script for automated testing
+const puppeteer = require('puppeteer');
+
+(async () => {
+  const browser = await puppeteer.launch();
+  const page = await browser.newPage();
+  await page.goto('https://example.com');
+  console.log(await page.title());
+  await browser.close();
+})();
+          </code></pre>
+          <p>Here’s a diagram illustrating the architecture:</p>
+          <img src="assets/img/testing_framework_diagram.png" alt="Testing Framework Diagram">
           <a href="https://github.com/nourhene-guellouz/project2" target="_blank">View Project</a>
         </div>
       </div>
