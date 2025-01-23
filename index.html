@@ -7,7 +7,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
   <style>
     body {
-      font-family: 'Roboto', sans-serif, Arial, sans-serif;
+      font-family: 'Roboto', sans-serif;
       line-height: 1.6;
       margin: 0;
       padding: 0;
@@ -42,7 +42,6 @@
       background: white;
       border-radius: 8px;
       box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-      text-align: left;
     }
     h2 {
       color: #4ca1af;
@@ -57,10 +56,8 @@
     a {
       color: #4ca1af;
       text-decoration: none;
-      transition: color 0.3s ease;
     }
     a:hover {
-      color: #2c3e50;
       text-decoration: underline;
     }
     footer {
@@ -73,10 +70,9 @@
     footer a {
       color: #4ca1af;
       text-decoration: none;
-      transition: color 0.3s ease;
     }
     footer a:hover {
-      color: #66c6cc;
+      text-decoration: underline;
     }
     .contact-form {
       text-align: left;
@@ -115,30 +111,15 @@
       border-radius: 5px;
       cursor: pointer;
       margin-top: 10px;
-      transition: background-color 0.3s ease;
     }
     button:hover {
       background-color: #2c3e50;
-    }
-    @media (max-width: 768px) {
-      header img {
-        width: 120px;
-      }
-      header h1 {
-        font-size: 2rem;
-      }
-      header p {
-        font-size: 1rem;
-      }
-      section {
-        padding: 15px;
-      }
     }
   </style>
 </head>
 <body>
   <header>
-    <img src="assets/img/22.png" alt="Nourhene Guellouz" loading="lazy">
+    <img src="assets/img/22.png" alt="Nourhene Guellouz">
     <h1>Nourhene Guellouz</h1>
     <p>Web Developer | Data Scientist | Cloud Specialist</p>
   </header>
@@ -159,9 +140,8 @@
     <section>
       <h2>Projects</h2>
       <ul>
-        <li><a href="https://github.com/nourhene-guellouz/project1" target="_blank" aria-label="Predictive Maintenance Model">Predictive Maintenance Model</
-        </a></li>
-        <li><a href="https://github.com/nourhene-guellouz/project2" target="_blank" aria-label="Automated Testing Framework">Automated Testing Framework</a></li>
+        <li><a href="https://github.com/nourhene-guellouz/project1" target="_blank">Predictive Maintenance Model</a></li>
+        <li><a href="https://github.com/nourhene-guellouz/project2" target="_blank">Automated Testing Framework</a></li>
       </ul>
     </section>
     <section>
@@ -169,11 +149,11 @@
       <form action="https://formspree.io/f/xeoeqprd" method="POST" class="contact-form">
         <div class="form-group">
           <label for="name">Your Name:</label>
-          <input type="text" id="name" name="name" placeholder="Enter your name" required autocomplete="name">
+          <input type="text" id="name" name="name" placeholder="Enter your name" required>
         </div>
         <div class="form-group">
           <label for="email">Your Email:</label>
-          <input type="email" id="email" name="email" placeholder="Enter your email" required autocomplete="email">
+          <input type="email" id="email" name="email" placeholder="Enter your email" required>
         </div>
         <div class="form-group">
           <label for="message">Your Message:</label>
@@ -183,11 +163,12 @@
       </form>
     </section>
   </main>
-  <footer>
-    <p>&copy; 2025 Nourhene Guellouz. 
-      <a href="https://www.linkedin.com/in/nourhene-guellouz/" target="_blank" aria-label="Visit my LinkedIn">LinkedIn</a> | 
-      <a href="mailto:nourhaneguellouz@gmail.com?subject=Portfolio%20Inquiry" aria-label="Send me an email">Email</a>
-    </p>
-  </footer>
+<footer>
+  <p>&copy; 2025 Nourhene Guellouz. 
+    <a href="https://www.linkedin.com/in/nourhene-guellouz/" target="_blank">LinkedIn</a> | 
+    <a href="mailto:nourhaneguellouz@gmail.com?subject=Portfolio%20Inquiry">Email</a>
+  </p>
+</footer>
+
 </body>
-</html>
+</html> 
