@@ -3,7 +3,7 @@ title: Nourhene Guellouz
 logo: /assets/img/headshot_circle.png
 
 # Optional Tagline/Description
-description: "Web Developer | Machine Learning Enthusiast | Cloud & Deployment Specialist"
+description: "Cybersecurity Enthusiast | DevSecOps | Cloud Security | Pentesting | CNAM 2025 Apprentice"
 
 # Jekyll Theme
 theme: jekyll-theme-minimal
@@ -15,7 +15,7 @@ paginate: 5
 
 # SEO Optimization
 author: Nourhene Guellouz
-keywords: "portfolio, web development, machine learning, data science, cloud, deployment, Nourhene Guellouz"
+keywords: "cybersecurity, DevSecOps, cloud security, penetration testing, data science, Nourhene Guellouz, CNAM, portfolio"
 url: "https://nourhene-guellouz.github.io"
 
 # Social Links
@@ -31,6 +31,7 @@ social_links:
 header_pages:
   - index.html
   - projects.html
+  - cyber.html
   - contact.html
 
 # Additional Settings
